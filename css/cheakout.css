@@ -1,0 +1,448 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:mainfont;
+}
+input:focus{
+  outline: none;
+}
+:root {
+  --maincolor: #828282;
+}
+:root{
+  --maincolor2: #bd4444;
+
+}
+@font-face {
+  font-family: mainfont;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+/* start header */
+/* start sectoin one */
+.header1 {
+  border: 2px solid #000000;
+  background-color: #000000;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12%;
+  padding: 0 10%;
+  vertical-align: middle;
+}
+
+.lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  padding-right: 10%;
+
+}
+
+.langu {
+  display: flex;
+  color: #F5F5F5;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.lang p {
+  color: #FAFAFA;
+}
+
+.link1 {
+  color: #FAFAFA;
+  margin-left: 15px;
+}
+
+@media (max-width:767px) {
+  .header {
+      padding: 0;
+      padding-right: 10px;
+      width: 100%;
+
+  }
+
+  .lang {
+      font-size: 12px;
+
+
+  }
+
+}
+
+/* end sectoin one */
+
+/* start sectoin two */
+
+
+ header nav {
+  border-bottom: 1px solid var(--maincolor);
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 10%;
+  width: 100%;
+  margin-bottom: -10px;
+
+}
+
+nav ul {
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+
+
+nav ul li a {
+
+  text-decoration: none;
+  color: #000000;
+
+
+}
+
+.Input-Nav {
+
+  background-color: #F5F5F5;
+  border: none;
+  font-size: small;
+  padding: 2px;
+  width: 90%;
+
+}
+
+.div-input {
+  background-color: #F5F5F5;
+  width: 220px;
+  padding: 7px 10px;
+  display: flex;
+}
+
+.div-input i {
+  margin-right: 6px;
+}
+
+.form {
+
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.form .icon {
+  border: none;
+  display: flex;
+  align-items: center;
+  margin: -10px;
+margin-left: 10px;
+}
+
+
+.form .icon i {
+  font-size: 25px;
+  margin-left: 20px;
+
+}
+
+.form .icon .fa-heart {
+  margin-left: 10px;
+}
+
+
+.drop-pages {
+  background-color: #8282824a;
+  padding: 10px 30px;
+  height: fit-content;
+  display: flex;
+  gap: 10px;
+  vertical-align: middle;
+  font-weight: 800;
+  font-size: 15px;
+  display: none;
+}
+
+/* @media (max-width:767px) {
+
+  nav .container {
+      padding: 10px 5%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: #DB4444 1px solid;
+  }
+
+  nav .container h1 {
+      padding-left: 0;
+      border: 1px solid;
+      padding-top: 0;
+  }
+
+  nav ul {
+      display: none;
+  }
+
+  .drop-pages {
+      display: flex;
+      border: 1px solid;
+      margin-left: -15%;
+  }} */
+
+/* .drop-pages:hover {}
+} */
+
+/* end header */
+
+.header{
+  margin: 0 10%;
+  
+  margin-top: 60px;
+}
+.link{
+  padding-right: 8px;
+  padding-left: 4px;
+  color:#000000;
+}
+.page1{
+    display: flex;
+    gap: 135px;
+   padding: 0 10%;
+}
+.inputstyle{
+    background-color: #F5F5F5;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 3px;
+    margin-top: 0px;
+}
+.labell{
+ margin-top: 10px;
+
+}
+.lastdiv{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 100px;
+}
+.checkstyle{
+accent-color: #DB4444;
+width: 25px;
+border-radius: 7px;
+}
+.paragraph1{
+  font-size:15px;
+  }
+  .section1{
+    margin-top: 45px;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section2{
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .point1{
+    display: flex;
+    gap: 280px;
+    margin-bottom: 10px;
+  }
+
+  .point2{
+    display: flex;
+    gap: 280px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+  }
+  .point3{
+    display: flex;
+    gap: 300px;
+    margin-bottom: 35px;
+    margin-top: 10px;
+  }
+  .section3{
+    display: flex;
+    margin-bottom: 20px;
+   
+  }
+  .section4{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+  .inputcode{
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: black;
+  }
+  .inputCoupon{
+    background-color: #DB4444;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 10px;
+    color: #FAFAFA;
+    border-color:#DB4444 ;
+
+    
+  }
+  .section5{
+    display: flex;
+    gap:   0px ;
+    margin-bottom: 25px;
+    
+  }
+  .inputorder{
+    background-color: #DB4444;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-color:#DB4444 ;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 7px;
+    color: #FAFAFA;
+  }
+  .h_1{ 
+    padding: 0 10%;
+    margin-bottom: 30px;
+  
+    margin-top: 40px;
+  }
+  .img1{
+    width: 35px;
+  }
+  .img2{
+    width: 35px;
+  }
+  .p__1{
+    margin-left: 17px;
+  } 
+  .p_2{
+    margin-left: 200px;
+  }
+.hr1{
+    width: 380px;
+}
+
+.radio2{
+    width: 17px;
+ accent-color: #000000;
+}
+.radio1{
+    width: 17px;
+    accent-color: #000000;
+
+}
+.labeBank{
+  margin-left: 15px;
+  margin-right: 65px;
+}
+.imgsection3{
+  padding-left: 10px;
+  margin-left: 12px;
+}
+.labeCash{
+  margin-left: 8px;
+}
+footer{
+  background-color: black;
+  padding: 10px 0px;
+}
+.small-footer{
+  background-color: black;
+  margin: 50px 10%;
+
+  color: white;
+
+  display: flex;
+  justify-content: flex-start;
+  gap: 8rem;
+}
+.small-footer .column{
+  display: flex;
+flex-direction: column;
+gap: 20px;
+font-size: 12px;
+}
+
+.emial{
+  border: 0.5px solid white;
+  
+  
+  width: 190px;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 5px;
+}
+
+.input-Email{
+  background-color: transparent;
+  color: white;
+  border:none;
+
+  padding: 8px 8px;
+
+  width: 80%;
+  font-size: 15px;
+ 
+}
+
+.images-link{
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.sm-images{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+.icons{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 20px auto;
+
+}
+
+.pra{
+  color: #fafafaa6;
+  margin: 10px 40%;
+  margin-top: 20px;
+  font-size: 13px;
+
+}
+
+
+
+
+
+
+
+
+
+

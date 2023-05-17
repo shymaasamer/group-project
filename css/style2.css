@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: mainfont;
+}
+
+input:focus {
+  outline: none;
+}
+
+:root {
+  --maincolor: #828282;
+}
+
+:root {
+  --maincolor2: #bd4444;
+
+}
+
+@font-face {
+  font-family: mainfont;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+/* start header */
+/* start sectoin one */
+.header {
+  border: 2px solid #000000;
+  background-color: #000000;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12%;
+  padding: 0 10%;
+  vertical-align: middle;
+}
+
+.lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  padding-right: 10%;
+
+}
+
+.langu {
+  display: flex;
+  color: #F5F5F5;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.lang p {
+  color: #FAFAFA;
+}
+
+@media (max-width:767px) {
+  .header {
+    padding: 0;
+    padding-right: 10px;
+    width: 100%;
+
+  }
+
+  .lang {
+    font-size: 12px;
+
+
+  }
+
+}
+
+/* end sectoin one */
+
+/* start sectoin two */
+
+.link1 {
+  color: #FAFAFA;
+  margin-left: 15px;
+}
+nav {
+  border-bottom: 1px solid var(--maincolor);
+}
+nav .container {
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+  padding: 25px 0;
+  vertical-align: middle;
+  margin-bottom: -10px;
+
+}
+
+nav ul {
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+nav ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+.container h1 {
+  padding-top: 14px;
+}
+
+nav ul li a {
+
+  text-decoration: none;
+  color: #000000;
+
+
+}
+
+.Input-Nav {
+
+  background-color: #F5F5F5;
+
+  border: none;
+
+}
+
+.div-input {
+  background-color: #F5F5F5;
+  width: 220px;
+
+  padding: 7px 10px;
+}
+
+.form {
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 20px;
+
+}
+
+.icon {
+  padding-top: 10px;
+
+
+
+}
+
+
+.icon i {
+  padding-right: 10px;
+  font-size: 20px;
+
+}
+
+.icon .fa-heart {
+  margin-left: 10px;
+}
+
+
+.drop-pages {
+  background-color: #8282824a;
+  padding: 10px 30px;
+  height: fit-content;
+  display: flex;
+  gap: 10px;
+  vertical-align: middle;
+  font-weight: 800;
+  font-size: 15px;
+  display: none;
+}
+
+/* @media (max-width:767px) {
+  
+    nav .container {
+        padding: 10px 5%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: #DB4444 1px solid;
+    }
+  
+    nav .container h1 {
+        padding-left: 0;
+        border: 1px solid;
+        padding-top: 0;
+    }
+  
+    nav ul {
+        display: none;
+    }
+  
+    .drop-pages {
+        display: flex;
+        border: 1px solid;
+        margin-left: -15%;
+    }} */
+
+/* .drop-pages:hover {}
+  } */
+
+/* end header */
+
+.img2 img {
+  margin-left: -20%;
+}
+
+.img2 {
+  margin-left: 0px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+}
+
+.section2 {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+
+.department2 {
+  margin-top: 130px;
+}
+
+.department3 {
+  display: flex;
+  gap: 49px;
+  margin-top: 0px;
+}
+
+.button_1 {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #FAFAFA;
+  background-color: #DB4444;
+  border-radius: 5px;
+  border-color: #DB4444;
+}
+
+.p_2 {
+  color: #DB4444;
+  text-decoration: none;
+}
+
+footer {
+  background-color: black;
+  padding: 10px 0px;
+}
+
+.small-footer {
+  background-color: black;
+  margin: 50px 10%;
+  /* padding: 100px 40px; */
+  color: white;
+  /* border: solid white; */
+  display: flex;
+  justify-content: flex-start;
+  gap: 8rem;
+}
+
+.small-footer .column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 12px;
+}
+
+.emial {
+  border: 0.5px solid white;
+
+  /* padding-right: px; */
+  width: 190px;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 5px;
+}
+
+.input-Email {
+  background-color: transparent;
+  color: white;
+  border: none;
+  /* border: solid white; */
+  padding: 8px 8px;
+  /* padding-right: 3px; */
+  width: 80%;
+  font-size: 15px;
+  /* margin-right: 0px; */
+  /* position: relative; */
+}
+
+.images-link {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.sm-images {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 20px auto;
+
+}
+
+.pra {
+  color: #fafafaa6;
+  margin: 10px 40%;
+  margin-top: 20px;
+  font-size: 13px;
+
+}
